@@ -35,9 +35,9 @@
 ## HSMS/SECS Driver 개발
 ### [* PowerPoint 자료][hsmsDevPPT]
 ### Purposes
-1. SEMI Standard에서 규정한 SECS 통신 기술의 내재화
-2. 상용 Driver 구매비용 절감
-3. etc...
+* SEMI Standard에서 규정한 SECS 통신 기술의 내재화
+* 상용 Driver 구매비용 절감
+* etc...
 
 ### What is SEMI Standard?
 * SEMI
