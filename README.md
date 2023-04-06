@@ -2,7 +2,6 @@
 [semiurl]: https://www.semi.org/
 [semistd?]: https://www.semi.org/en/products-services/standards/using-semi-standards
 [hbturl]: http://hbtechnology.co.kr/
-[mesremotegit]: https://github.com/orgs/hbtechnology-SWRelated/teams/mes
 [xcomurl]: https://www.linkgenesis.co.kr/
 
 [E5]: https://github.com/SeafoodMan/SeafoodMan/blob/4225ed29443bfb172b4867b039938670531313c7/report/readme/docs/SEMI%20Standard%20-%20E005(SECS-II)-0704.pdf
@@ -70,8 +69,8 @@
 #### Developed driver scope
 <table>
     <tr align=center>
-        <td><img src="/doc/report/readme/imgs/cim_layer.png" width=360 height=360></td>
-        <td><img src="/doc/report/readme/imgs/driver_layer.png" width=360 height=360></td>
+        <td><img src="/report/readme/imgs/cim_layer.png" width=360 height=360></td>
+        <td><img src="/report/readme/imgs/driver_layer.png" width=360 height=360></td>
     </tr> 
     <tr align=center>
         <td><strong>Layout of equipment side SW</strong></td>
@@ -156,7 +155,7 @@ public class HSMS : AsyncSocketV2, IHaveLogger
 
 * ```HSMS Header packet make method```
   + reference SEMI.E037
-  + <img src="/doc/report/readme/imgs/hsms_header.png" width=360 height=360>
+  + <img src="/report/readme/imgs/hsms_header.png" width=360 height=360>
 ```C#
 public static HMessage MakeNewMessage(short devid, short stream, short func, int sysbyte, EnSECSTransactionType tratype , EnSessionCode ctrlcd = EnSessionCode.DataMessage)
 {
@@ -221,7 +220,7 @@ public static HMessage MakeNewMessage(short devid, short stream, short func, int
 
 * ```SECSII Item format defined```
   + reference SEMI.E005
-  + <img src="/doc/report/readme/imgs/formatcode.png" width=360 height=360>
+  + <img src="/report/readme/imgs/formatcode.png" width=360 height=360>
 ```C#
 public enum EnItemFormatCode : byte
 {
@@ -280,7 +279,7 @@ public enum EnItemFormatCode : byte
 
 * ```SECSII Item Encoder```
   + reference SEMI.E005
-  + <img src="/doc/report/readme/imgs/secs2item.png" width=360 height=360>
+  + <img src="/report/readme/imgs/secs2item.png" width=360 height=360>
 ```C#
 public unsafe void AppendItem(EnItemFormatCode code, int length, ReadOnlySpan<byte> body)
 {
@@ -326,23 +325,23 @@ public unsafe void AppendItem(EnItemFormatCode code, int length, ReadOnlySpan<by
   + Sequence diagram
 <table>
   <tr align=center>
-      <td rowspan="4"><img src="/doc/report/readme/imgs/sequencediagram.png" width=680 height=640></td>
-      <td><img src="/doc/report/readme/imgs/eqp_simul.png" width=480 height=220></td>
+      <td rowspan="4"><img src="/report/readme/imgs/sequencediagram.png" width=680 height=640></td>
+      <td><img src="/report/readme/imgs/eqp_simul.png" width=480 height=220></td>
       <td>EQP_SW(Simulator)</td>
   </tr>
 
   <tr align=center>
-      <td><img src="/doc/report/readme/imgs/cim_sw.png" width=480 height=220></td>
+      <td><img src="/report/readme/imgs/cim_sw.png" width=480 height=220></td>
       <td>CIM_SW</td>
   </tr>
 
   <tr align=center>
-      <td><img src="/doc/report/readme/imgs/server_gui.png" width=480 height=120></td>
+      <td><img src="/report/readme/imgs/server_gui.png" width=480 height=120></td>
       <td>Server</td>
   </tr>
 
   <tr align=center>
-      <td><img src="/doc/report/readme/imgs/client.PNG" width=480 height=220></td>
+      <td><img src="/report/readme/imgs/client.PNG" width=480 height=220></td>
       <td>Client</td>
   </tr>
     
@@ -351,7 +350,7 @@ public unsafe void AppendItem(EnItemFormatCode code, int length, ReadOnlySpan<by
 
 
 * Test Demo
-![screensh](/doc/report/readme/imgs/simulation.gif)
+![screensh](/report/readme/imgs/simulation.gif)
 
 
 
