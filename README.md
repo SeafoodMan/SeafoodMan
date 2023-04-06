@@ -13,6 +13,24 @@
 # 주요 프로젝트
 
 ## AOI설비 INDEXER 종속형 설비 CIM 개발
+### Development
+#### Development period
+* 2014~ <span style="color:yellowgreen; font-family:bold; font-size:1.5em">continuous</span>
+#### Reference documents
+* Customer Spec
+
+#### Environment
+* Tool : Visual Studio 2013,2015,2017,2019
+* OS : Microsoft Windows
+* Framework : .Net Framework
+* Language : C#
+
+#### Main UI
+* Version1
+  + soon...
+* Version2
+  + <img src="/report/readme/imgs/cim_sw.png" width=800 height=600>
+
 
 ## HSMS/SECS Driver 개발
 ### [* PowerPoint 자료][hsmsDevPPT]
