@@ -2,26 +2,24 @@
 [semiurl]: https://www.semi.org/
 [semistd?]: https://www.semi.org/en/products-services/standards/using-semi-standards
 [hbturl]: http://hbtechnology.co.kr/
-[mesremotegit]: https://github.com/orgs/hbtechnology-SWRelated/teams/mes
 [xcomurl]: https://www.linkgenesis.co.kr/
 
-[E5]: https://github.com/hbtechnology-SWRelated/src_HSMS-SECS/tree/main/doc/report/readme/docs/SEMI%20Standard%20-%20E005(SECS-II)-0704.pdf
-[E37]: https://github.com/hbtechnology-SWRelated/src_HSMS-SECS/tree/main/doc/report/readme/docs/SEMI%20Standard%20-%20E037(HSMS)-1018.pdf
-[E30]: https://github.com/hbtechnology-SWRelated/src_HSMS-SECS/tree/main/doc/report/readme/docs/SEMI%20Standard%20-%20E030(GEM)-1103.pdf
+[E5]: https://github.com/SeafoodMan/SeafoodMan/blob/4225ed29443bfb172b4867b039938670531313c7/report/readme/docs/SEMI%20Standard%20-%20E005(SECS-II)-0704.pdf
+[E37]: https://github.com/SeafoodMan/SeafoodMan/blob/4225ed29443bfb172b4867b039938670531313c7/report/readme/docs/SEMI%20Standard%20-%20E037(HSMS)-1018.pdf
+[E30]: https://github.com/SeafoodMan/SeafoodMan/blob/4225ed29443bfb172b4867b039938670531313c7/report/readme/docs/SEMI%20Standard%20-%20E030(GEM)-1103.pdf
 
 [configDev]: https://github.com/hbtechnology-SWRelated/src_HSMS-SECS/issues/45#issue-1195422557
 
 
 # 주요 프로젝트
 
-## AOI설비 INDEXER 종속형 설비 개발
+## AOI설비 INDEXER 종속형 설비 CIM 개발
 
 ## HSMS/SECS Driver 개발
 ### Purposes
 1. SEMI Standard에서 규정한 SECS 통신 기술의 내재화
 2. 상용 Driver 구매비용 절감
-    + [Linkgenesis社][xcomurl]의 XCOM Driver 구매시 1Copy 당 1,000,000KRW 
-3. <span style="color:yellowgreen; font-family:bold; ">공통 Protocol(SECS)을 이용한 타社와 당社Solution(RONS)의 연결 및 고도화</span>
+3. etc...
 
 ### What is SEMI Standard?
 * SEMI
@@ -70,8 +68,8 @@
 #### Developed driver scope
 <table>
     <tr align=center>
-        <td><img src="/doc/report/readme/imgs/cim_layer.png" width=360 height=360></td>
-        <td><img src="/doc/report/readme/imgs/driver_layer.png" width=360 height=360></td>
+        <td><img src="/report/readme/imgs/cim_layer.png" width=360 height=360></td>
+        <td><img src="/report/readme/imgs/driver_layer.png" width=360 height=360></td>
     </tr> 
     <tr align=center>
         <td><strong>Layout of equipment side SW</strong></td>
@@ -156,7 +154,7 @@ public class HSMS : AsyncSocketV2, IHaveLogger
 
 * ```HSMS Header packet make method```
   + reference SEMI.E037
-  + <img src="/doc/report/readme/imgs/hsms_header.png" width=360 height=360>
+  + <img src="/report/readme/imgs/hsms_header.png" width=360 height=360>
 ```C#
 public static HMessage MakeNewMessage(short devid, short stream, short func, int sysbyte, EnSECSTransactionType tratype , EnSessionCode ctrlcd = EnSessionCode.DataMessage)
 {
@@ -221,7 +219,7 @@ public static HMessage MakeNewMessage(short devid, short stream, short func, int
 
 * ```SECSII Item format defined```
   + reference SEMI.E005
-  + <img src="/doc/report/readme/imgs/formatcode.png" width=360 height=360>
+  + <img src="/report/readme/imgs/formatcode.png" width=360 height=360>
 ```C#
 public enum EnItemFormatCode : byte
 {
@@ -280,7 +278,7 @@ public enum EnItemFormatCode : byte
 
 * ```SECSII Item Encoder```
   + reference SEMI.E005
-  + <img src="/doc/report/readme/imgs/secs2item.png" width=360 height=360>
+  + <img src="/report/readme/imgs/secs2item.png" width=360 height=360>
 ```C#
 public unsafe void AppendItem(EnItemFormatCode code, int length, ReadOnlySpan<byte> body)
 {
@@ -318,7 +316,15 @@ public unsafe void AppendItem(EnItemFormatCode code, int length, ReadOnlySpan<by
     }
 }
 ```
-
+### Code Struct
+<table>
+    <tr align=center>
+        <td><img src="/report/readme/imgs/code_struct.png" width=640 height=480></td>
+    </tr> 
+    <tr align=center>
+        <td><strong>Namespace Scheme</strong></td>
+    </tr>
+</table>
 
 ### Simulation
 * Test environment
@@ -326,23 +332,23 @@ public unsafe void AppendItem(EnItemFormatCode code, int length, ReadOnlySpan<by
   + Sequence diagram
 <table>
   <tr align=center>
-      <td rowspan="4"><img src="/doc/report/readme/imgs/sequencediagram.png" width=680 height=640></td>
-      <td><img src="/doc/report/readme/imgs/eqp_simul.png" width=480 height=220></td>
+      <td rowspan="4"><img src="/report/readme/imgs/sequencediagram.png" width=680 height=640></td>
+      <td><img src="/report/readme/imgs/eqp_simul.png" width=480 height=220></td>
       <td>EQP_SW(Simulator)</td>
   </tr>
 
   <tr align=center>
-      <td><img src="/doc/report/readme/imgs/cim_sw.png" width=480 height=220></td>
+      <td><img src="/report/readme/imgs/cim_sw.png" width=480 height=220></td>
       <td>CIM_SW</td>
   </tr>
 
   <tr align=center>
-      <td><img src="/doc/report/readme/imgs/server_gui.png" width=480 height=120></td>
+      <td><img src="/report/readme/imgs/server_gui.png" width=480 height=120></td>
       <td>Server</td>
   </tr>
 
   <tr align=center>
-      <td><img src="/doc/report/readme/imgs/client.PNG" width=480 height=220></td>
+      <td><img src="/report/readme/imgs/client.PNG" width=480 height=220></td>
       <td>Client</td>
   </tr>
     
@@ -351,7 +357,7 @@ public unsafe void AppendItem(EnItemFormatCode code, int length, ReadOnlySpan<by
 
 
 * Test Demo
-![screensh](/doc/report/readme/imgs/simulation.gif)
+![screensh](/report/readme/imgs/simulation.gif)
 
 
 
@@ -374,21 +380,21 @@ public unsafe void AppendItem(EnItemFormatCode code, int length, ReadOnlySpan<by
           </a>
         </td>
         <td>
-          <a href="https://github.com/sym1945">
-            <img src="https://github.com/sym1945.png" width="32" height="32" alt="Main members" valign="middle"/>
+          <a href="https://github.com/11sym1945">
+            <img src="https://github.com/11sym1945.png" width="32" height="32" alt="Main members" valign="middle"/>
           </a>
         </td>
         <td>
-          <a href="https://github.com/jineui-Lee">
-            <img src="https://github.com/jineui-Lee.png" width="32" height="32" alt="Main members" align="center"/>
+          <a href="https://github.com/11jineui-Lee">
+            <img src="https://github.com/11jineui-Lee.png" width="32" height="32" alt="Main members" align="center"/>
           </a>
         </td>
       </tr>
 
       <tr>
         <th><a href="https://github.com/SeafoodMan">지형락</a></th>
-        <th><a href="https://github.com/sym1945">XXX</a></th>
-        <th><a href="https://github.com/jineui-Lee">XXX</a></th>
+        <th><a href="https://github.com/11sym1945">XXX</a></th>
+        <th><a href="https://github.com/11jineui-Lee">XXX</a></th>
       </tr>
     </table> 
 * Support members
