@@ -376,25 +376,25 @@ public unsafe void AppendItem(EnItemFormatCode code, int length, ReadOnlySpan<by
       <tr align="center">
         <td>
           <a href="https://github.com/SeafoodMan">
-            <img src="https://github.com/SeafoodMan.png" width="32" height="32" alt="Main members" align="center"/>
+            <img src="https://github.com/SeafoodMan.png" width="32" height="32" alt="Main" align="center"/>
           </a>
         </td>
         <td>
           <a href="https://github.com/11sym1945">
-            <img src="https://github.com/11sym1945.png" width="32" height="32" alt="Main members" valign="middle"/>
+            <img src="https://github.com/11sym1945.png" width="32" height="32" alt="Follower" valign="middle"/>
           </a>
         </td>
         <td>
           <a href="https://github.com/11jineui-Lee">
-            <img src="https://github.com/11jineui-Lee.png" width="32" height="32" alt="Main members" align="center"/>
+            <img src="https://github.com/11jineui-Lee.png" width="32" height="32" alt="Follower" align="center"/>
           </a>
         </td>
       </tr>
 
       <tr>
         <th><a href="https://github.com/SeafoodMan">지형락</a></th>
-        <th><a href="https://github.com/11sym1945">XXX</a></th>
-        <th><a href="https://github.com/11jineui-Lee">XXX</a></th>
+        <th><a href="https://github.com/11sym1945">비공개</a></th>
+        <th><a href="https://github.com/11jineui-Lee">비공개</a></th>
       </tr>
     </table> 
 * Support members
