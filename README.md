@@ -316,7 +316,15 @@ public unsafe void AppendItem(EnItemFormatCode code, int length, ReadOnlySpan<by
     }
 }
 ```
-
+### Code Struct
+<table>
+    <tr align=center>
+        <td><img src="/report/readme/imgs/code_struct.png" width=640 height=480></td>
+    </tr> 
+    <tr align=center>
+        <td><strong>Namespace Scheme</strong></td>
+    </tr>
+</table>
 
 ### Simulation
 * Test environment
