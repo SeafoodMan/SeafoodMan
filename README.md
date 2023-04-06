@@ -381,12 +381,12 @@ public unsafe void AppendItem(EnItemFormatCode code, int length, ReadOnlySpan<by
         </td>
         <td>
           <a href="https://github.com/11sym1945">
-            <img src="https://github.com/11sym1945.png" width="32" height="32" alt="Follower" valign="middle"/>
+            <img src="https://github.com/sym1945.png" width="32" height="32" alt="Follower" valign="middle"/>
           </a>
         </td>
         <td>
           <a href="https://github.com/11jineui-Lee">
-            <img src="https://github.com/11jineui-Lee.png" width="32" height="32" alt="Follower" align="center"/>
+            <img src="https://github.com/jineui-Lee.png" width="32" height="32" alt="Follower" align="center"/>
           </a>
         </td>
       </tr>
