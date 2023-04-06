@@ -13,14 +13,13 @@
 
 # 주요 프로젝트
 
-## AOI설비 INDEXER 종속형 설비 개발
+## AOI설비 INDEXER 종속형 설비 CIM 개발
 
 ## HSMS/SECS Driver 개발
 ### Purposes
 1. SEMI Standard에서 규정한 SECS 통신 기술의 내재화
 2. 상용 Driver 구매비용 절감
-    + [Linkgenesis社][xcomurl]의 XCOM Driver 구매시 1Copy 당 1,000,000KRW 
-3. <span style="color:yellowgreen; font-family:bold; ">공통 Protocol(SECS)을 이용한 타社와 당社Solution(RONS)의 연결 및 고도화</span>
+3. etc...
 
 ### What is SEMI Standard?
 * SEMI
