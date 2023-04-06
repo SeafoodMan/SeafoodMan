@@ -15,7 +15,10 @@
 ## AOI설비 INDEXER 종속형 설비 CIM 개발
 ### Development
 #### Development period
-* 2014~ <span style="color:yellowgreen; font-family:bold; font-size:1.5em">continuous</span>
+* Version1
+  + 2014~2014
+* Version2
+  + 2015~2017 (Include maintenance)
 #### Reference documents
 * Customer Spec
 
