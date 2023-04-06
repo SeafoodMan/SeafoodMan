@@ -27,7 +27,7 @@
 
 #### Main UI
 * Version1
-  + soon...
+  + <img src="/report/readme/imgs/cim_sw_v1.png" width=800 height=600>
 * Version2
   + <img src="/report/readme/imgs/cim_sw.png" width=800 height=600>
 
