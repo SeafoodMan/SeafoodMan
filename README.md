@@ -369,13 +369,13 @@ public unsafe void AppendItem(EnItemFormatCode code, int length, ReadOnlySpan<by
   + <table>
       <tr align="center">
         <td>
-          <a href="https://github.com/sym1945">
-            <img src="https://github.com/sym1945.png" width="32" height="32" alt="Main members" valign="middle"/>
+          <a href="https://github.com/SeafoodMan">
+            <img src="https://github.com/SeafoodMan.png" width="32" height="32" alt="Main members" align="center"/>
           </a>
         </td>
         <td>
-          <a href="https://github.com/SeafoodMan">
-            <img src="https://github.com/SeafoodMan.png" width="32" height="32" alt="Main members" align="center"/>
+          <a href="https://github.com/sym1945">
+            <img src="https://github.com/sym1945.png" width="32" height="32" alt="Main members" valign="middle"/>
           </a>
         </td>
         <td>
@@ -386,37 +386,12 @@ public unsafe void AppendItem(EnItemFormatCode code, int length, ReadOnlySpan<by
       </tr>
 
       <tr>
-        <th><a href="https://github.com/sym1945">신영민</a></th>
         <th><a href="https://github.com/SeafoodMan">지형락</a></th>
-        <th><a href="https://github.com/jineui-Lee">이진의</a></th>
+        <th><a href="https://github.com/sym1945">XXX</a></th>
+        <th><a href="https://github.com/jineui-Lee">XXX</a></th>
       </tr>
     </table> 
 * Support members
-  + <table>
-      <tr align="center">
-        <td>
-          <a href="https://github.com/cws8383">
-            <img src="https://github.com/cws8383.png" width="32" height="32" alt="Main members" align="center"/>
-          </a>
-        </td>
-        <td>
-          <a href="https://github.com/rldnsdl123">
-            <img src="https://github.com/rldnsdl123.png" width="32" height="32" alt="Main members" align="center"/>
-          </a>
-        </td>
-        <td>
-          <a href="https://github.com/KEG0814">
-            <img src="https://github.com/KEG0814.png" width="32" height="32" alt="Main members" align="center"/>
-          </a>
-        </td>
-      </tr>
-
-      <tr>
-        <th><a href="https://github.com/cws8383">최우석</a></th>
-        <th><a href="https://github.com/rldnsdl123">김기운</a></th>
-        <th><a href="https://github.com/KEG0814">김은규</a></th>
-      </tr>
-    </table>
 </details>
 
 <details>
@@ -435,13 +410,7 @@ public unsafe void AppendItem(EnItemFormatCode code, int length, ReadOnlySpan<by
 * Bug Fix
 * Improving performance and user interface
 * Framework change
-  + .Net Standard, .Net Framework -> .Net Core
-
-#### 2. Develop HSMS/SML Configuration tool
-* Modeling GUI [(]XCOM Configuration Tool <[Linkgenesis社][xcomurl]>]
-* <img src="/doc/report/readme/imgs/xcomConfigtool.png" width=1024 height=600>
-* ### Progress 
-  + [Go to link ▶︎][configDev]
+  + .Net Standard, .Net Framework -> .Net5
 
 <!--
 **SeafoodMan/SeafoodMan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
