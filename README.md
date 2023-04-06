@@ -13,7 +13,7 @@
 
 # 주요 프로젝트
 
-## AOI설비 INDEXER 종속형 설비 CIM 개발
+## AOI/REPAIR 설비 INDEXER 종속형 설비 CIM 개발
 ### Development
 
 #### System Types
