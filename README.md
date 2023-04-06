@@ -10,6 +10,7 @@
 [hsmsDevPPT]: https://github.com/SeafoodMan/SeafoodMan/blob/main/report/readme/docs/SECS%20Driver.pptx
 
 
+
 # 주요 프로젝트
 
 ## AOI설비 INDEXER 종속형 설비 CIM 개발
@@ -18,7 +19,7 @@
 * Version1
   + 2014~2014
 * Version2
-  + 2015~2017 (Include maintenance)
+  + 2016~2018 (Include maintenance)
 #### Reference documents
 * Customer Spec
 
