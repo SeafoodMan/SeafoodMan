@@ -15,7 +15,11 @@
 
 ## AOI설비 INDEXER 종속형 설비 CIM 개발
 ### Development
-#### Development period
+
+#### System Types
+<img src="/report/readme/imgs/system.png" width=800 height=600>
+
+#### period
 * Version1
   + 2014~2014
 * Version2
