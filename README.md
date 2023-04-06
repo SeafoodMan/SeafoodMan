@@ -12,12 +12,12 @@
 [configDev]: https://github.com/hbtechnology-SWRelated/src_HSMS-SECS/issues/45#issue-1195422557
 
 
-### 주요 프로젝트
+# 주요 프로젝트
 
-#### AOI설비 INDEXER 종속형 설비 개발
+## AOI설비 INDEXER 종속형 설비 개발
 
-#### HSMS/SECS Driver 개발
-# Purposes
+## HSMS/SECS Driver 개발
+### Purposes
 1. SEMI Standard에서 규정한 SECS 통신 기술의 내재화
 2. 상용 Driver 구매비용 절감
     + [Linkgenesis社][xcomurl]의 XCOM Driver 구매시 1Copy 당 1,000,000KRW 
@@ -54,21 +54,20 @@
 
 
 
-# Development
-### Development period
+### Development
+#### Development period
 * 2021.01 ~ <span style="color:yellowgreen; font-family:bold; font-size:1.5em">continuous</span>
-### Reference documents
+#### Reference documents
 * [E005-0699(SECS-II)][E5]
 * [E037-1080(HSMS)][E37]
-* [E030-1103(GEM)][E30]
 
-### Environment
+#### Environment
 * Tool : Visual Studio 2017
 * OS : Microsoft Windows
 * Framework : Microsoft .Net
 * Language : C#
 
-### Developed driver scope
+#### Developed driver scope
 <table>
     <tr align=center>
         <td><img src="/doc/report/readme/imgs/cim_layer.png" width=360 height=360></td>
@@ -81,7 +80,7 @@
 </table>
 
 
-### Main development items
+#### Main development items
 * ```TCP/IP```
   + Asynchronous TCP/IP
   + Include Active(Socket Client), Passive(Socket Server) mode
@@ -321,7 +320,7 @@ public unsafe void AppendItem(EnItemFormatCode code, int length, ReadOnlySpan<by
 ```
 
 
-# Simulation
+### Simulation
 * Test environment
 
   + Sequence diagram
@@ -362,7 +361,7 @@ public unsafe void AppendItem(EnItemFormatCode code, int length, ReadOnlySpan<by
 
 
 
-# Contributors
+### Contributors
 <details>
 <summary><b>Team members</b></summary>
 
@@ -431,14 +430,14 @@ public unsafe void AppendItem(EnItemFormatCode code, int length, ReadOnlySpan<by
 
 
 
-# To do
-### 1. Continuous improvement work
+### To do
+#### 1. Continuous improvement work
 * Bug Fix
 * Improving performance and user interface
 * Framework change
   + .Net Standard, .Net Framework -> .Net Core
 
-### 2. Develop HSMS/SML Configuration tool
+#### 2. Develop HSMS/SML Configuration tool
 * Modeling GUI [(]XCOM Configuration Tool <[Linkgenesis社][xcomurl]>]
 * <img src="/doc/report/readme/imgs/xcomConfigtool.png" width=1024 height=600>
 * ### Progress 
