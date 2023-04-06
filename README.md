@@ -380,21 +380,21 @@ public unsafe void AppendItem(EnItemFormatCode code, int length, ReadOnlySpan<by
           </a>
         </td>
         <td>
-          <a href="https://github.com/sym1945">
-            <img src="https://github.com/sym1945.png" width="32" height="32" alt="Main members" valign="middle"/>
+          <a href="https://github.com/11sym1945">
+            <img src="https://github.com/11sym1945.png" width="32" height="32" alt="Main members" valign="middle"/>
           </a>
         </td>
         <td>
-          <a href="https://github.com/jineui-Lee">
-            <img src="https://github.com/jineui-Lee.png" width="32" height="32" alt="Main members" align="center"/>
+          <a href="https://github.com/11jineui-Lee">
+            <img src="https://github.com/11jineui-Lee.png" width="32" height="32" alt="Main members" align="center"/>
           </a>
         </td>
       </tr>
 
       <tr>
         <th><a href="https://github.com/SeafoodMan">지형락</a></th>
-        <th><a href="https://github.com/sym1945">XXX</a></th>
-        <th><a href="https://github.com/jineui-Lee">XXX</a></th>
+        <th><a href="https://github.com/11sym1945">XXX</a></th>
+        <th><a href="https://github.com/11jineui-Lee">XXX</a></th>
       </tr>
     </table> 
 * Support members
