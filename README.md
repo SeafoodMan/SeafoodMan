@@ -5,9 +5,9 @@
 [mesremotegit]: https://github.com/orgs/hbtechnology-SWRelated/teams/mes
 [xcomurl]: https://www.linkgenesis.co.kr/
 
-[E5]: https://github.com/hbtechnology-SWRelated/src_HSMS-SECS/tree/main/doc/report/readme/docs/SEMI%20Standard%20-%20E005(SECS-II)-0704.pdf
-[E37]: https://github.com/hbtechnology-SWRelated/src_HSMS-SECS/tree/main/doc/report/readme/docs/SEMI%20Standard%20-%20E037(HSMS)-1018.pdf
-[E30]: https://github.com/hbtechnology-SWRelated/src_HSMS-SECS/tree/main/doc/report/readme/docs/SEMI%20Standard%20-%20E030(GEM)-1103.pdf
+[E5]: https://github.com/SeafoodMan/SeafoodMan/blob/4225ed29443bfb172b4867b039938670531313c7/report/readme/docs/SEMI%20Standard%20-%20E005(SECS-II)-0704.pdf
+[E37]: https://github.com/SeafoodMan/SeafoodMan/blob/4225ed29443bfb172b4867b039938670531313c7/report/readme/docs/SEMI%20Standard%20-%20E037(HSMS)-1018.pdf
+[E30]: https://github.com/SeafoodMan/SeafoodMan/blob/4225ed29443bfb172b4867b039938670531313c7/report/readme/docs/SEMI%20Standard%20-%20E030(GEM)-1103.pdf
 
 [configDev]: https://github.com/hbtechnology-SWRelated/src_HSMS-SECS/issues/45#issue-1195422557
 
