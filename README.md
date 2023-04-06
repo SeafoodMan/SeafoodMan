@@ -4,11 +4,10 @@
 [hbturl]: http://hbtechnology.co.kr/
 [xcomurl]: https://www.linkgenesis.co.kr/
 
-[E5]: https://github.com/SeafoodMan/SeafoodMan/blob/4225ed29443bfb172b4867b039938670531313c7/report/readme/docs/SEMI%20Standard%20-%20E005(SECS-II)-0704.pdf
-[E37]: https://github.com/SeafoodMan/SeafoodMan/blob/4225ed29443bfb172b4867b039938670531313c7/report/readme/docs/SEMI%20Standard%20-%20E037(HSMS)-1018.pdf
-[E30]: https://github.com/SeafoodMan/SeafoodMan/blob/4225ed29443bfb172b4867b039938670531313c7/report/readme/docs/SEMI%20Standard%20-%20E030(GEM)-1103.pdf
-
-[configDev]: https://github.com/hbtechnology-SWRelated/src_HSMS-SECS/issues/45#issue-1195422557
+[E5]: https://github.com/SeafoodMan/SeafoodMan/blob/main/report/readme/docs/SEMI%20Standard%20-%20E005(SECS-II)-0704.pdf
+[E37]: https://github.com/SeafoodMan/SeafoodMan/blob/main/report/readme/docs/SEMI%20Standard%20-%20E037(HSMS)-1018.pdf
+[E30]: https://github.com/SeafoodMan/SeafoodMan/blob/main/report/readme/docs/SEMI%20Standard%20-%20E030(GEM)-1103.pdf
+[hsmsDevPPT]: https://github.com/SeafoodMan/SeafoodMan/blob/main/report/readme/docs/SECS%20Driver.pptx
 
 
 # 주요 프로젝트
@@ -16,6 +15,7 @@
 ## AOI설비 INDEXER 종속형 설비 CIM 개발
 
 ## HSMS/SECS Driver 개발
+### [* PowerPoint 자료][hsmsDevPPT]
 ### Purposes
 1. SEMI Standard에서 규정한 SECS 통신 기술의 내재화
 2. 상용 Driver 구매비용 절감
