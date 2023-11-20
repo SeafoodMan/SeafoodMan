@@ -25,7 +25,7 @@
 * Version2
   + 2016~2018 (Include maintenance)
 #### Reference documents
-* Customer Spec
+* Customers Spec
 
 #### Environment
 * Tool : Visual Studio 2013,2015,2017,2019
@@ -42,6 +42,31 @@
 #### Indexer 제어
 * Dual Arm Robot 반송 로직
   + <img src="/report/readme/imgs/DualArmRobotLogic.png" width=800 height=600>
+
+## 해외 AOI/MEASURE 설비 INDEXER 종속형 설비 CIM 개발
+### Development
+#### period
+* T社
+  + 2015~2015
+* H社
+  + 2018~2019 (Include maintenance)
+
+#### Reference documents
+* Customers Spec
+
+#### Environment
+* Tool : Visual Studio 2015,2017,2019
+* OS : Microsoft Windows
+* Framework : .Net Framework
+* Language : C#
+
+#### Main UI
+* T社
+  + <img src="/report/readme/imgs/TianmaMainUI.png" width=800 height=600>
+* H社
+  + <img src="/report/readme/imgs/H2MainUI.png" width=800 height=600>
+
+
 
 ## HSMS/SECS Driver 개발
 ### [* PowerPoint 자료][hsmsDevPPT]
