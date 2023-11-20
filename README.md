@@ -39,6 +39,9 @@
 * Version2
   + <img src="/report/readme/imgs/cim_sw.png" width=800 height=600>
 
+#### Indexer 제어
+* Dual Arm Robot 반송 로직
+  + <img src="/report/readme/imgs/DualArmRobotLogic.png" width=800 height=600>
 
 ## HSMS/SECS Driver 개발
 ### [* PowerPoint 자료][hsmsDevPPT]
