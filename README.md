@@ -477,13 +477,12 @@ public unsafe void AppendItem(EnItemFormatCode code, int length, ReadOnlySpan<by
 ### Vision
 #### 1. OpenCvSharp4, ZXing.Net 이용 Barcode reader
 * Test Demo
-![screensh](/report/readme/imgs/bcrTestDemo.gif)
 <table>
     <tr align=center>
         <td><img src="/report/readme/imgs/bcrTestDemo.gif" width=640 height=480></td>
     </tr> 
     <tr align=center>
-        <td><strong>Namespace Scheme</strong></td>
+        <td><strong>왼쪽:원본이미지, 오른쪽:가공이미지</strong></td>
     </tr>
 </table>
 
