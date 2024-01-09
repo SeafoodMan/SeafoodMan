@@ -472,6 +472,13 @@ public unsafe void AppendItem(EnItemFormatCode code, int length, ReadOnlySpan<by
 * Framework change
   + .Net Standard, .Net Framework -> .Net5
 
+
+# 개인 학습 중
+### Vision
+#### 1. OpenCvSharp4, ZXing.Net 이용 Barcode reader
+* Test Demo
+![screensh](/report/readme/imgs/simulation.gif)
+
 <!--
 **SeafoodMan/SeafoodMan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
